@@ -149,21 +149,24 @@ class Aula2403 extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Column(
-                      children: [
-                        Text(
-                          "Título",
-                          style: TextStyle(
-                            fontSize: 26,
+                    Container(
+                      margin: EdgeInsets.only(top: 10,),
+                      child: Column(
+                        children: [
+                          Text(
+                            "Título",
+                            style: TextStyle(
+                              fontSize: 26,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Conteúdo do texto sobre o perna negra.",
-                          style: TextStyle(
-                            fontSize: 16,
+                          Text(
+                            "Conteúdo do texto sobre o perna negra.",
+                            style: TextStyle(
+                              fontSize: 16,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),
